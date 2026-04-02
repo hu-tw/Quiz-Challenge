@@ -1,7 +1,7 @@
-// Audio Setup
+
 const correctSound = new Audio('https://assets.mixkit.co/active_storage/sfx/2000/2000-preview.mp3');
 const wrongSound = new Audio('https://assets.mixkit.co/active_storage/sfx/2003/2003-preview.mp3');
-// Final Result Sounds
+
 const winFinalSound = new Audio('https://assets.mixkit.co/active_storage/sfx/2019/2019-preview.mp3'); 
 const loseFinalSound = new Audio('https://assets.mixkit.co/active_storage/sfx/951/951-preview.mp3');
 
