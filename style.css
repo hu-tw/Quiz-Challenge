@@ -1,9 +1,9 @@
 :root {
-    /* Golden & Amber Palette - No Pink/Blue/Purple */
+   
     --main-bg: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
     --container-bg: #ffffff;
     --text-color: #2d3436;
-    --primary: #e67e22; /* Amber Orange */
+    --primary: #e67e22; 
     --success: #27ae60;
     --error: #e74c3c;
     --btn-border: #f1f2f6;
@@ -13,7 +13,7 @@
     --main-bg: linear-gradient(135deg, #2c3e50 0%, #000000 100%);
     --container-bg: #1e272e;
     --text-color: #f1f2f6;
-    --primary: #f39c12; /* Golden */
+    --primary: #f39c12;
     --btn-border: #485460;
 }
 
