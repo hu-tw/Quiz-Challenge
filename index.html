@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Quiz Challenge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <i class="fas fa-sun"></i>
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <div class="quiz-container">
+        <div id="quiz-content">
+            <div class="progress-wrapper">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="stats">
+                <span id="question-number">Question: 1/10</span>
+                <span id="current-score">Score: 0</span>
+            </div>
+            <h2 id="question">Loading Question...</h2>
+            <div id="answer-buttons" class="btn-grid"></div>
+            <button id="next-btn" class="next-button hide">Next Question <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div id="score-container" class="hide">
+            <div id="result-icon"></div>
+            <h2 id="result-message">Quiz Completed!</h2>
+            <p id="score-text"></p>
+            <button class="restart-button" onclick="location.reload()">
+                <i class="fas fa-redo"></i> Start New Mix
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
